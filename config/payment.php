@@ -238,9 +238,9 @@ return [
         ],
         'zarinpal' => [
             /* normal api */
-            'apiPurchaseUrl' => 'https://api.zarinpal.com/pg/v4/payment/request.json',
+            'apiPurchaseUrl' => 'https://ir.zarinpal.com/pg/services/WebGate/wsdl',
             'apiPaymentUrl' => 'https://www.zarinpal.com/pg/StartPay/',
-            'apiVerificationUrl' => 'https://api.zarinpal.com/pg/v4/payment/verify.json',
+            'apiVerificationUrl' => 'https://ir.zarinpal.com/pg/services/WebGate/wsdl',
 
             /* sandbox api */
             'sandboxApiPurchaseUrl' => 'https://sandbox.zarinpal.com/pg/services/WebGate/wsdl',
@@ -251,6 +251,7 @@ return [
             'zaringateApiPurchaseUrl' => 'https://ir.zarinpal.com/pg/services/WebGate/wsdl',
             'zaringateApiPaymentUrl' => 'https://www.zarinpal.com/pg/StartPay/:authority/ZarinGate',
             'zaringateApiVerificationUrl' => 'https://ir.zarinpal.com/pg/services/WebGate/wsdl',
+
 
             'mode' => 'normal', // can be normal, sandbox, zaringate
             'merchantId' => '',
